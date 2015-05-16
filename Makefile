@@ -6,7 +6,7 @@
 #    By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/03 11:35:46 by ybarbier          #+#    #+#              #
-#    Updated: 2014/11/14 11:25:50 by ybarbier         ###   ########.fr        #
+#    Updated: 2015/05/16 12:44:36 by ybarbier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,7 @@ SRC = 	$(PATH_SRC)ft_strlen.c \
 	  	$(PATH_SRC)ft_memcmp.c \
 	  	$(PATH_SRC)ft_strcmp.c \
 	  	$(PATH_SRC)ft_strncmp.c \
-	  	$(PATH_SRC)ft_strnstr.c\
+		$(PATH_SRC)ft_strnstr.c\
 		$(PATH_SRC)ft_strreplace_char.c\
 		$(PATH_SRC)ft_atoi.c \
 	  	$(PATH_SRC)ft_atol.c \
@@ -80,7 +80,8 @@ SRC = 	$(PATH_SRC)ft_strlen.c \
 		$(PATH_SRC)ft_get_next_line.c \
 		$(PATH_SRC)ft_arrlen.c \
 		$(PATH_SRC)ft_arrcpy.c \
-		$(PATH_SRC)ft_arrfree.c
+		$(PATH_SRC)ft_arrfree.c \
+		$(PATH_SRC)ft_error.c
 
 OBJ = $(patsubst %.c,%.o,$(SRC))
 
