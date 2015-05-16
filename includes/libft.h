@@ -6,7 +6,7 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:19:04 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/11 14:35:36 by ybarbier         ###   ########.fr       */
+/*   Updated: 2015/05/16 12:56:44 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,5 +92,10 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 t_uint				ft_arrlen(char **arr);
 char				**ft_arrcpy(char **arr);
 void				ft_arrfree(char ***arr);
+
+void				ft_exit(void);
+void				ft_malloc_error(void)
+void				ft_error_str(char *str)
+void				ft_error_str_exit(char *str)
 
 #endif
