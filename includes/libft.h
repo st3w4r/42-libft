@@ -6,7 +6,7 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:19:04 by ybarbier          #+#    #+#             */
-/*   Updated: 2015/05/16 12:56:44 by ybarbier         ###   ########.fr       */
+/*   Updated: 2015/05/16 13:11:26 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,8 +94,8 @@ char				**ft_arrcpy(char **arr);
 void				ft_arrfree(char ***arr);
 
 void				ft_exit(void);
-void				ft_malloc_error(void)
-void				ft_error_str(char *str)
-void				ft_error_str_exit(char *str)
+void				ft_malloc_error(void);
+void				ft_error_str(char *str);
+void				ft_error_str_exit(char *str);
 
 #endif
