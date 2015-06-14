@@ -6,7 +6,7 @@
 #    By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/03 11:35:46 by ybarbier          #+#    #+#              #
-#    Updated: 2015/05/23 18:09:57 by ybarbier         ###   ########.fr        #
+#    Updated: 2015/06/14 19:05:41 by ybarbier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -60,6 +60,9 @@ SRC = 	$(PATH_SRC)ft_strlen.c \
 		$(PATH_SRC)ft_strnequ.c \
 		$(PATH_SRC)ft_strsub.c \
 		$(PATH_SRC)ft_strjoin.c \
+		$(PATH_SRC)ft_str_arrjoin.c \
+		$(PATH_SRC)ft_str_arrfree.c \
+		$(PATH_SRC)ft_str_toupper.c \
 		$(PATH_SRC)ft_strjoin_free_l.c \
 		$(PATH_SRC)ft_strjoin_free_r.c \
 		$(PATH_SRC)ft_strjoin_free_lr.c \
