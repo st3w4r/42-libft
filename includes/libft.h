@@ -6,7 +6,7 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:19:04 by ybarbier          #+#    #+#             */
-/*   Updated: 2015/05/16 13:11:26 by ybarbier         ###   ########.fr       */
+/*   Updated: 2015/06/14 19:00:20 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,6 +68,9 @@ char				*ft_strmapi(char const *s, char(*f)(unsigned int, char));
 int					ft_strequ(char const *s1, char const *s2);
 int					ft_strnequ(char const *s1, char const *s2, size_t n);
 char				*ft_strsub(char const *s, unsigned int start, size_t len);
+char				*ft_str_arrjoin(char **arr_str);
+void				ft_str_arrfree(char **arr_str);
+char				*ft_str_toupper(char *str);
 char				*ft_strjoin(char const *s1, char const *s2);
 char				*ft_strjoin_free_l(char *s1, char const *s2);
 char				*ft_strjoin_free_r(char const *s1, char *s2);
