@@ -62,6 +62,8 @@ SRC = 	$(PATH_SRC)ft_strlen.c \
 		$(PATH_SRC)ft_strjoin.c \
 		$(PATH_SRC)ft_str_arrjoin.c \
 		$(PATH_SRC)ft_str_arrfree.c \
+		$(PATH_SRC)ft_str_multjoin.c \
+		$(PATH_SRC)ft_str_multfree.c \
 		$(PATH_SRC)ft_str_toupper.c \
 		$(PATH_SRC)ft_strjoin_free_l.c \
 		$(PATH_SRC)ft_strjoin_free_r.c \

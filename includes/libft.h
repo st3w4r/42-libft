@@ -70,6 +70,8 @@ int					ft_strnequ(char const *s1, char const *s2, size_t n);
 char				*ft_strsub(char const *s, unsigned int start, size_t len);
 char				*ft_str_arrjoin(char **arr_str);
 void				ft_str_arrfree(char **arr_str);
+char				*ft_str_multjoin(char *str, ...);
+void				ft_str_multfree(char *str, ...);
 char				*ft_str_toupper(char *str);
 char				*ft_strjoin(char const *s1, char const *s2);
 char				*ft_strjoin_free_l(char *s1, char const *s2);
