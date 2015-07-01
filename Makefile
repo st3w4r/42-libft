@@ -6,7 +6,7 @@
 #    By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/03 11:35:46 by ybarbier          #+#    #+#              #
-#    Updated: 2015/06/14 19:05:41 by ybarbier         ###   ########.fr        #
+#    Updated: 2015/07/01 18:34:31 by ybarbier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -89,7 +89,8 @@ SRC = 	$(PATH_SRC)ft_strlen.c \
 		$(PATH_SRC)ft_arrlen.c \
 		$(PATH_SRC)ft_arrcpy.c \
 		$(PATH_SRC)ft_arrfree.c \
-		$(PATH_SRC)ft_error.c
+		$(PATH_SRC)ft_error.c \
+		$(PATH_SRC)ft_str_count_char.c
 
 OBJ = $(patsubst %.c,%.o,$(SRC))
 

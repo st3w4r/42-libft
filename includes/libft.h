@@ -6,7 +6,7 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:19:04 by ybarbier          #+#    #+#             */
-/*   Updated: 2015/06/14 19:00:20 by ybarbier         ###   ########.fr       */
+/*   Updated: 2015/07/01 18:34:02 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,6 +79,8 @@ char				*ft_strjoin_free_r(char const *s1, char *s2);
 char				*ft_strjoin_free_lr(char *s1, char *s2);
 char				*ft_strtrim(char const *s);
 char				**ft_strsplit(char const *s, char c);
+size_t				ft_str_count_char(char *str, char c);
+
 char				*ft_itoa(int n);
 void				ft_putchar(char c);
 void				ft_putstr(char const *s);
