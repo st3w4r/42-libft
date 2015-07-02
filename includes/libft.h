@@ -6,7 +6,7 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:19:04 by ybarbier          #+#    #+#             */
-/*   Updated: 2015/07/01 18:34:02 by ybarbier         ###   ########.fr       */
+/*   Updated: 2015/07/02 22:00:26 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ char				*ft_strstr(const char *s1, const char *s2);
 char				*ft_strnstr(const char *s1, const char *s2, size_t n);
 int					ft_strcmp(const char *s1, const char *s2);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
-char				*ft_strreplace_char(char const *s, char c_s, char c_r);
+char				*ft_strreplace_char(char *s, char c_s, char c_r);
 int					ft_atoi(const char *str);
 long				ft_atol(const char *str);
 int					ft_isalpha(int c);
