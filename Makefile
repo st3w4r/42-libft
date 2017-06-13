@@ -79,6 +79,7 @@ SRC = 	$(PATH_SRC)ft_strlen.c \
 		$(PATH_SRC)ft_putstr_fd.c \
 		$(PATH_SRC)ft_putendl_fd.c \
 		$(PATH_SRC)ft_putnbr_fd.c \
+		$(PATH_SRC)ft_puthexa.c \
 		$(PATH_SRC)ft_lstnew.c \
 		$(PATH_SRC)ft_lstdelone.c \
 		$(PATH_SRC)ft_lstdel.c \
@@ -90,7 +91,7 @@ SRC = 	$(PATH_SRC)ft_strlen.c \
 		$(PATH_SRC)ft_arrcpy.c \
 		$(PATH_SRC)ft_arrfree.c \
 		$(PATH_SRC)ft_error.c \
-		$(PATH_SRC)ft_str_count_char.c
+		$(PATH_SRC)ft_str_count_char.c 
 
 OBJ = $(patsubst %.c,%.o,$(SRC))
 
