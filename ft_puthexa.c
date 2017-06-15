@@ -33,9 +33,9 @@ void	ft_puthexa(uint64_t nb)
 		i++;
 	}
 	ft_putstr("0x");
-	while (i >= 0)
+	while (i > 0)
 	{
-		ft_putchar(hex_revert[i]);
 		i--;
+		ft_putchar(hex_revert[i]);
 	}
 }
