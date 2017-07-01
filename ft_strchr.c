@@ -6,13 +6,13 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 10:29:32 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/07 17:20:05 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:49:00 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strchr(const char *s, int c)
+char	*ft_strchr(const char *s, int c)
 {
 	char *str;
 

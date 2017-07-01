@@ -6,13 +6,13 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/05 10:42:47 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/06 12:58:17 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:47:11 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_memcmp(const void *s1, const void *s2, size_t n)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	char	*str1;
 	char	*str2;

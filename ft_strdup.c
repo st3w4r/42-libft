@@ -6,14 +6,14 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 14:10:13 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/05 16:06:07 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:49:49 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-char *ft_strdup(const char *src)
+char	*ft_strdup(const char *src)
 {
 	unsigned int	i;
 	size_t			len;

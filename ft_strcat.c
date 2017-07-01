@@ -6,13 +6,13 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 17:40:58 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/04 14:14:47 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:48:41 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strcat(char *s1, const char *s2)
+char	*ft_strcat(char *s1, const char *s2)
 {
 	int i;
 	int j;

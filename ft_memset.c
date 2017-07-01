@@ -6,13 +6,13 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 15:17:11 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/04 17:12:54 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:47:38 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memset(void *b, int c, size_t len)
+void	*ft_memset(void *b, int c, size_t len)
 {
 	size_t	counter;
 	char	*str;

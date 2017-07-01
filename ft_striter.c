@@ -6,13 +6,13 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/05 19:24:44 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/06 11:28:06 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:50:05 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_striter(char *s, void (*f)(char *))
+void	ft_striter(char *s, void (*f)(char *))
 {
 	char			*str;
 	unsigned int	counter;

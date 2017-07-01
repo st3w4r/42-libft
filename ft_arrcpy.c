@@ -6,7 +6,7 @@
 /*   By: ybarbier <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/03/13 15:59:37 by ybarbier          #+#    #+#             */
-/*   Updated: 2015/03/13 15:59:52 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:43:50 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,10 @@ char	**ft_arrcpy(char **arr)
 		return (NULL);
 	pos = 0;
 	while (arr && arr[pos])
-		new_arr[pos] = ft_strdup(arr[pos]), pos++;
+	{
+		new_arr[pos] = ft_strdup(arr[pos]);
+		pos++;
+	}
 	new_arr[pos] = NULL;
 	return (new_arr);
 }

@@ -6,13 +6,13 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/07 20:03:15 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/08 16:31:08 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:48:24 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putnbr(int n)
+void	ft_putnbr(int n)
 {
 	unsigned int	nb;
 

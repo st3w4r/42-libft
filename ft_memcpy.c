@@ -6,13 +6,13 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 17:03:38 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/04 18:21:50 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:47:24 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memcpy(void *dst, const void *src, size_t n)
+void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
 	size_t	counter;
 	char	*str_dst;

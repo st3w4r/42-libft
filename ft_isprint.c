@@ -6,13 +6,13 @@
 /*   By: ybarbier <ybarbier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 14:07:11 by ybarbier          #+#    #+#             */
-/*   Updated: 2014/11/04 14:14:43 by ybarbier         ###   ########.fr       */
+/*   Updated: 2017/06/29 17:46:14 by ybarbier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
 	if ((c >= 32 && c <= 126))
 		return (1);
